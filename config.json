@@ -1,0 +1,33 @@
+{
+    "path": {
+        "yoloPath": "C:\\Mosaist-website\\mosaist\\yolov5",
+        "modelPath": "C:\\Mosaist-website\\mosaist\\yolov5\\runs\\train",
+        "datasetPath": "C:\\Mosaist-website\\mosaist\\datasets",
+        "inputPath": "C:\\Mosaist-website\\mosaist\\inputs",
+        "outputPath": "C:\\Mosaist-website\\mosaist\\outputs"
+    },
+
+    "server": {
+        "url": "",
+        "ip": "",
+        "port": 0,
+        "sslCert": "",
+        "sslKey": "",
+        "useProxy": true,
+
+        "front": {
+            "url": "http://localhost:8080",
+            "port": 8080
+        },
+
+        "back": {
+            "httpUrl": "",
+            "socketUrl": "",
+            "httpPort": 0,
+            "socketPort": 0,
+            "allowedImageExtensions": [],
+            "allowedVideoExtensions": [],
+            "editPrefix": ""
+        }
+    }
+}
